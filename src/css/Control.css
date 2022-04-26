@@ -1,0 +1,31 @@
+.control-container {
+  width: 400px;
+  height: 50px;
+  /* border: solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.button {
+  height: 80px;
+  width: 80px;
+  border: solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 50%;
+}
+
+.start {
+  background-color: #17B169;
+}
+
+.stop {
+  background-color: #E31837;
+}
+
+.reset {
+  background-color: white;
+}
